@@ -35,14 +35,14 @@ def encode_gt(mask_dir):
     for df in N:
         i = int(df[:-4])
         # load image
-        mask_name = "{}.npy".format(i)
-        im_name = "{}.png".format(i)
+        mask_name = "{}.npy".format(i) # use "{:012d}.npy" for COCO style file name
+        im_name = "{}.png".format(i) # use {:012d}.jpg for COCO
         data = np.load(os.path.join(mask_dir, mask_name),allow_pickle=True).item()
         I = data["mask"]
         im_anno = {
             "id": i,
             "width": int(I.shape[1]),
-            "height": int(I.shape[2]),
+            "height": int(I.shape[0]),
             "file_name": im_name,
         }
 
