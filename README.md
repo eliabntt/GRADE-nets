@@ -17,4 +17,4 @@ In the script folders you can find:
 
 All scripts regarding Mask R-CNN should be copied into the repository `mrcnn` folder. They are reported here since they can be generalized with minimal effort using pycocotools.
 
-For LICENSE, refer to the main [GRADE](https://github.com/eliabntt/GRADE-RR) repository. The same terms applies here.
+For LICENSE, refer to the main [GRADE](https://github.com/eliabntt/GRADE-RR) repository. The same terms applies here. By using any related software you are anyway implicitly accepting and must comply with the corresponding terms. This includes, but is not limited to, YOLOv5 terms, GRADE, GRADE-RR, or more in general the GRADE-repositories terms, Matterport Mask R-CNN and any other software you may use for this.
