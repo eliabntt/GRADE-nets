@@ -1,6 +1,9 @@
 [submodule "yolov5"]
 	path = yolov5
 	url = https://github.com/ultralytics/yolov5.git
-[submodule "Mask_RCNN_TF2"]
-	path = Mask_RCNN_TF2
-	url = https://github.com/eliabntt/Mask_RCNN_TF2.git
+[submodule "detectron2"]
+	path = detectron2
+	url = https://github.com/facebookresearch/detectron2.git
+[submodule "DynaSLAM"]
+	path = DynaSLAM
+	url = https://github.com/eliabntt/DynaSLAM.git
