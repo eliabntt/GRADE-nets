@@ -91,7 +91,7 @@ def encode_gt(mask_dir):
     print("successfully wrote GT annotations to", anno_path)
 
 import sys
-args = argv[1:]
+args = sys.argv[1:]
 if len(args)==0 or len(args)>1:
     print("provide only the mask folder")
     sys.exit()
