@@ -22,6 +22,8 @@ In the script folders you can find:
 
 For LICENSE, refer to the main [GRADE](https://github.com/eliabntt/GRADE-RR) repository. The same terms applies here. By using any related software you are anyway implicitly accepting and must comply with the corresponding terms. This includes, but is not limited to, YOLOv5 terms, GRADE, GRADE-RR, or more in general the GRADE-repositories terms, Matterport Mask R-CNN and any other software you may use for this.
 
+The results and the network models can be found [here](https://github.com/eliabntt/GRADE_data)
+
 __________
 ### CITATION
 If you find this work useful please cite our work as
