@@ -1,5 +1,7 @@
 # GRADE-nets
 
+## This repository is part of the [GRADE](https://eliabntt.github.io/GRADE-RR/home) project
+
 This repository contains useful scripts and the permanent snapshot of the networks used to train GRADE data.
 
 This will automatically download the `YOLOv5` and `detectron2` repositories at the commits used in our trainings.
@@ -20,3 +22,10 @@ In the script folders you can find:
 
 For LICENSE, refer to the main [GRADE](https://github.com/eliabntt/GRADE-RR) repository. The same terms applies here. By using any related software you are anyway implicitly accepting and must comply with the corresponding terms. This includes, but is not limited to, YOLOv5 terms, GRADE, GRADE-RR, or more in general the GRADE-repositories terms, Matterport Mask R-CNN and any other software you may use for this.
 
+__________
+### CITATION
+If you find this work useful please cite our work as
+
+```
+
+```
